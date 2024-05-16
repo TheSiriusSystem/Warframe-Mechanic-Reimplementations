@@ -1,6 +1,4 @@
-Scripts are available in file form for people who don't want to use Roblox Studio, though there is no guarantee it'll be the same as in `place.rbxlx`.
+Scripts are available as files for people who don't want to look through `place.rbxlx` in a text editor or use Roblox Studio. There may be unfinished/unused code in this repository.
 
-These scripts are unfinished, but have been left in for transparency:
-- `client/event_handler.luau`
-- `modules/actor_ai.luau`
-- `modules/projectile_base.luau`
+## Sample Levels
+- **place.rbxlx:** Baseplate with three NPCs.
