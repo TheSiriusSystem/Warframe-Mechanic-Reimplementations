@@ -16,7 +16,7 @@ export type AiSettings = {
 	},
 }
 
-function ActorAi.findNearestTarget(actor: {[any]: any}, searchDistance: number?): any
+function ActorAi.findNearestTarget(actor: {[string]: any}, searchDistance: number?): any
 	if typeof(searchDistance) ~= "number" then
 		searchDistance = 500.0
 	end
@@ -34,7 +34,7 @@ function ActorAi.findNearestTarget(actor: {[any]: any}, searchDistance: number?)
 	return foundTarget
 end
 
-function ActorAi.moveToTarget(actor: {[any]: any}, target: BasePart, moveVariance: number?): ()
+function ActorAi.moveToTarget(actor: {[string]: any}, target: BasePart, moveVariance: number?): ()
 	if typeof(moveVariance) ~= "number" then
 		moveVariance = 0.0
 	end

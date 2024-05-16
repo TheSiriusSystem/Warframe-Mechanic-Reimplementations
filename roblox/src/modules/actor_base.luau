@@ -79,7 +79,7 @@ function ActorBase.new(character: Instance, setNetworkOwnerToServer: boolean?): 
 	
 	-- If the actor already exists, return it instead. Otherwise, create a new table
 	-- and initialize the rest.
-	local actor: {[any]: any} = ActorBase.Actors[character]
+	local actor: {[string]: any} = ActorBase.Actors[character]
 	if typeof(actor) == "table" then
 		return actor
 	end

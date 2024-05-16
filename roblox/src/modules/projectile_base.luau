@@ -7,7 +7,7 @@ local Utils = require(ReplicatedStorage.Modules.Utilities)
 local ProjectileBase = {Projectiles = {}}
 
 function ProjectileBase.new(part: BasePart): {[string]: any}
-	local projectile: {[any]: any} = ProjectileBase.Projectiles[part]
+	local projectile: {[string]: any} = ProjectileBase.Projectiles[part]
 	if typeof(projectile) == "table" then
 		return projectile
 	end
