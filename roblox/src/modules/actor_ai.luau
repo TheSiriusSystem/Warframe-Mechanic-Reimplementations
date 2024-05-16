@@ -1,6 +1,5 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local ServerStorage = game:GetService("ServerStorage")
-local CollectionService = game:GetService("CollectionService")
 local Utils = require(ReplicatedStorage.Modules.Utilities)
 local ActorBase = require(ServerStorage.Modules.ActorBase)
 local ActorAi = {}
