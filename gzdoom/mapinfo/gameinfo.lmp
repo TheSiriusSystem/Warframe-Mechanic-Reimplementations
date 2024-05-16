@@ -1,0 +1,4 @@
+gameinfo
+{
+	AddEventHandlers = "TSS_SkillModifiers", "TSS_MissionHandler", "TSS_PlayerLifeSystem", "TSS_DefenseObjectTracker", "TSS_BossTracker", "TSS_HudMessageHandler"
+}

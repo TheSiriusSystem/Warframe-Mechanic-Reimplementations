@@ -1,0 +1,4 @@
+include "mapinfo/gameinfo.lmp"
+include "mapinfo/editor_numbers.lmp"
+include "mapinfo/skills.lmp"
+include "mapinfo/maps.lmp"

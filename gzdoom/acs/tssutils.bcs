@@ -1,0 +1,7 @@
+#library "tssutils"
+#import "zcommon.bcs"
+
+script "GetUniqueThingId"
+{
+    SetResultValue(UniqueTID());
+}

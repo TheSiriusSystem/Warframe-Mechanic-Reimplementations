@@ -1,0 +1,7 @@
+DoomEdNums
+{
+	255 = TSS_Core
+	256 = TSS_Excavator
+	15000 = TSS_MapScript
+	15001 = TSS_MapScript_RBLXDTS
+}

@@ -1,0 +1,65 @@
+clearskills
+
+skill baby
+{
+	Name = "$TSS_SKILL_BABY"
+	TextColor = "Cyan"
+	MustConfirm = "$TSS_SKILLCONFIRM_BABY"
+	ACSReturn = 0
+	SpawnFilter = Hard
+}
+
+skill easy
+{
+	Name = "$TSS_SKILL_EASY"
+	TextColor = "Green"
+	MustConfirm = "$TSS_SKILLCONFIRM_EASY"
+	ACSReturn = 1
+	SpawnFilter = Hard
+	DefaultSkill
+}
+
+skill normal
+{
+	Name = "$TSS_SKILL_NORMAL"
+	TextColor = "Yellow"
+	MustConfirm = "$TSS_SKILLCONFIRM_NORMAL"
+	ACSReturn = 2
+	SpawnFilter = Hard
+}
+
+skill hard
+{
+	Name = "$TSS_SKILL_HARD"
+	TextColor = "Orange"
+	MustConfirm = "$TSS_SKILLCONFIRM_HARD"
+	ACSReturn = 3
+	SpawnFilter = Hard
+}
+
+skill nightmare
+{
+	Name = "$TSS_SKILL_NIGHTMARE"
+	TextColor = "DarkRed"
+	MustConfirm = "$TSS_SKILLCONFIRM_NIGHTMARE"
+	ACSReturn = 4
+	SpawnFilter = Nightmare
+}
+
+skill hellish
+{
+	Name = "$TSS_SKILL_HELLISH"
+	TextColor = "Gold"
+	MustConfirm = "$TSS_SKILLCONFIRM_HELLISH"
+	ACSReturn = 5
+	SpawnFilter = Nightmare
+}
+
+skill impossible
+{
+	Name = "$TSS_SKILL_IMPOSSIBLE"
+	TextColor = "Black"
+	MustConfirm = "$TSS_SKILLCONFIRM_IMPOSSIBLE"
+	ACSReturn = 6
+	SpawnFilter = Nightmare
+}

@@ -1,0 +1,44 @@
+version "4.11"
+
+#include "zscript/tss_experiment/constants.zs"
+#include "zscript/tss_experiment/utilities.zs"
+#include "zscript/tss_experiment/skill_modifiers.zs"
+#include "zscript/tss_experiment/mission_handler.zs"
+#include "zscript/tss_experiment/player_life_system.zs"
+#include "zscript/tss_experiment/defense_object_tracker.zs"
+#include "zscript/tss_experiment/boss_tracker.zs"
+#include "zscript/zshudmessage/hudmsg.zs"
+
+//---------------------------------------------------------------------------
+// BASE CLASSES
+//---------------------------------------------------------------------------
+
+#include "zscript/tss_experiment/actors/map_script.zs"
+#include "zscript/tss_experiment/actors/actor.zs"
+#include "zscript/tss_experiment/actors/defense_object.zs"
+#include "zscript/tss_experiment/actors/effect.zs"
+#include "zscript/tss_experiment/mixins/actor_mixin.zs"
+#include "zscript/tss_experiment/actors/player.zs"
+
+//---------------------------------------------------------------------------
+// MAP SCRIPTS
+//---------------------------------------------------------------------------
+
+#include "maps/rblxdts.zs"
+
+//---------------------------------------------------------------------------
+// EFFECT DEFINITIONS
+//---------------------------------------------------------------------------
+
+#include "zscript/tss_experiment/actors/effects/debris.zs"
+#include "zscript/tss_experiment/actors/effects/small_explosion.zs"
+#include "zscript/tss_experiment/actors/effects/large_explosion.zs"
+
+//---------------------------------------------------------------------------
+// OBJECT DEFINITIONS
+//---------------------------------------------------------------------------
+
+#include "zscript/tss_experiment/actors/objects/core.zs"
+#include "zscript/tss_experiment/actors/objects/excavator.zs"
+#include "zscript/tss_experiment/actors/enemies/zombie_boss_1.zs"
+#include "zscript/tss_experiment/actors/enemies/zombie_boss_2.zs"

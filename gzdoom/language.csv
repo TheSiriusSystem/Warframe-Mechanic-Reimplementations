@@ -1,0 +1,67 @@
+default,Identifier,Remarks,Filter
+Easy,TSS_SKILL_BABY,,
+"\c[Ice]Suitable for new players and beginners.
+
+\c[Green]120% Core Health
+\c[Brick]82.5% Player Damage
+\c[Green]50% Enemy Health
+50% Enemy Damage",TSS_SKILLCONFIRM_BABY,,
+Normal,TSS_SKILL_EASY,,
+"\c[Ice]Suitable for any player regardless of skill level.
+
+\c[White]100% Core Health
+100% Player Damage
+100% Enemy Health
+\c[Green]75% Enemy Damage",TSS_SKILLCONFIRM_EASY,,
+Hard,TSS_SKILL_NORMAL,,
+"\c[Ice]Suitable for players who want a bit of a challenge.
+
+\c[Brick]90% Core Health
+\c[Green]115% Player Damage
+\c[Brick]150% Enemy Health
+\c[White]100% Enemy Damage",TSS_SKILLCONFIRM_NORMAL,,
+Expert,TSS_SKILL_HARD,,
+"\c[Ice]Suitable for advanced players.
+
+\c[Brick]80% Core Health
+\c[Green]130% Player Damage
+\c[Brick]200% Enemy Health
+150% Enemy Damage",TSS_SKILLCONFIRM_HARD,,
+Chaos,TSS_SKILL_NIGHTMARE,,
+"\c[Ice]A difficulty dedicated to the best of the best, and heroes who have fallen. Let's finish what was started.
+
+\c[Brick]75% Core Health
+\c[Green]145% Player Damage
+\c[Brick]250% Enemy Health
+175% Enemy Damage",TSS_SKILLCONFIRM_NIGHTMARE,,
+Universal,TSS_SKILL_HELLISH,,
+"\c[Ice]Your final push through the gates of the beyond. Show what you have learned throughout countless trials.
+
+\c[Brick]70% Core Health
+\c[Green]160% Player Damage
+\c[Brick]300% Enemy Health
+200% Enemy Damage",TSS_SKILLCONFIRM_HELLISH,,
+???,TSS_SKILL_IMPOSSIBLE,,
+"\c[Ice]They're here to do the same objective as before... There's no way of stopping them.
+
+\c[Brick]60% Core Health
+\c[Green]205% Player Damage
+\c[Brick]400% Enemy Health
+250% Enemy Damage",TSS_SKILLCONFIRM_IMPOSSIBLE,,
+Wave: \c[Ice]%i \c-| \c[Ice]%i \c-%s,TSS_LABEL_DEFENSE_WAVE_COUNT,,
+Kill Goal: \c[Ice]%i \c-| \c[Ice]%i,TSS_LABEL_DEFENSE_KILL_GOAL_COUNT,,
+Next Wave: \c[Ice]%is,TSS_LABEL_DEFENSE_WAVE_COUNTDOWN,,
+Wave Incoming!,TSS_MESSAGE_DEFENSE_FIRST_WAVE,[Defense] Used when MissionHandler.d_WavesCompleted is 0.,
+Wave %i!,TSS_MESSAGE_DEFENSE_NEW_WAVE,[Defense],
+Final Wave!,TSS_MESSAGE_DEFENSE_LAST_WAVE,[Defense],
+Wave Cleared!,TSS_MESSAGE_DEFENSE_WAVE_COMPLETE,,
+Boss Battle in %i seconds.,TSS_MESSAGE_DEFENSE_FINALE_COUNTDOWN,The text might be a misnomer but the main use case for finales is boss fights.,
+The Core has been destroyed!,TSS_MESSAGE_DEFENSE_LOSS,,
+"You reached %i out of %i waves and stopped %i attackers.
+Remember, you can try again!",TSS_MESSAGE_DEFENSE_LOSS_ENDOOM,,
+Digs Completed: \c[Ice]%i,TSS_LABEL_EXCAVATOR_DIG_COUNT,,
+Total Cryotic Excavated: \c[Ice]%i,TSS_LABEL_EXCAVATOR_RESOURCE_COUNT,,
++%i Power,TSS_MESSAGE_EXCAVATOR_POWERED,,
+An Excavator has been destroyed!,TSS_MESSAGE_EXCAVATOR_DESTROYED,,
++%i Cryotic,TSS_MESSAGE_EXCAVATOR_FINISHED,,
+%s [%i],TSS_TAG_WARFRAME_ACTOR,,

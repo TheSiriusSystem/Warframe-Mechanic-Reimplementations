@@ -1,0 +1,22 @@
+defaultmap
+{
+	TeamPlayOn
+	AllowRespawn
+	NoInfighting
+}
+
+map RBLXDTS "Defend the Statue"
+{
+	LevelNum = 40
+	Next = "EXCVTION"
+	Sky1 = "SKY2"
+	Music = "D_COUNTD"
+}
+
+map EXCVTION "Hieracon, Pluto"
+{
+	LevelNum = 41
+	Next = "RBLXDTS"
+	Sky1 = "SKY2"
+	Music = "music/defense_boss/industry.mus"
+}
