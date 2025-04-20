@@ -55,12 +55,8 @@ function WFActorManager.getActorFromPart(part: BasePart): typeof(WFActor.new(Ins
 end
 
 local function setupNPC(character: Model): ()
-	if character:IsDescendantOf(workspace) and not character:HasTag(Const.TAG_FLAG_NO_AUTO_INIT) then
+	if character:IsDescendantOf(workspace) then
 		WFActorManager.registerActor(character)
-	else
-		if character:IsDescendantOf(workspace) and character:HasTag(Const.TAG_FLAG_NO_AUTO_INIT) then
-			print(`WFActorManager.setupNPC: Actor '{character.Name}' has the flag '{Const.TAG_FLAG_NO_AUTO_INIT}'.`)
-		end
 	end
 end
 
